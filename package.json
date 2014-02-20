@@ -1,23 +1,9 @@
 {
-  "name": "simplify-3d",
-  "version": "1.0.0",
+  "name": "microjs-simplify-3d",
   "description": "simplify-3D is a high-performance JavaScript 3D polyline simplification library",
-  "main": "index.js",
-  "scripts": {
-    "test": "component-install && component-build -s b && mocha -R spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/microjs/simplify-3D.git"
-  },
-  "author": "",
-  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": [],
   "dependencies": {
-    "simplify-base": "*"
-  },
-  "devDependencies": {
-    "mocha": "~1.7.1",
-    "expect.js": "~0.2.0",
-    "component": "*"
+    "microjs-simplify-base": "git://github.com/npmcomponent/microjs-simplify-base.git"
   }
 }
